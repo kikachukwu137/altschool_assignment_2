@@ -1,0 +1,302 @@
+
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+background-color: #f0f8ff;
+padding: 16px;
+}
+.logo{
+width: 38.67px;
+height: 35px;
+margin-bottom: 30px;
+}
+.container_1{
+margin-bottom: 5px;
+}
+.individuals{
+font-size: 16px;
+font-weight: 700;
+width: 327px;
+height: 28px;
+}
+.inspire{
+color: #afaeae;
+font-weight: 100;
+width: 327px;
+height: 44px;
+line-height: 18px;
+}
+.inspire_lg{
+display: none;
+}
+.form{
+background-color: #ffffff;
+width: 327px;
+height: 730px;
+padding-top: 10px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+.form_box1{
+width: 295px;
+height: 68px;
+padding-top: 7px;
+font-size: 12px;   
+}
+.form_box2{
+width: 295px;
+height: 68px;
+margin-top: 10px;
+padding: 0px 20px;
+font-size: 12px; 
+}
+.container_1{
+padding: 0px 20px;
+}
+.name_1{
+margin-bottom: 7px;
+letter-spacing: .5px;
+}
+.name_2{
+margin: 3px 0px 7px;
+letter-spacing: .5px;
+}
+.input_active{
+width: 290px;
+height: 40px;
+padding: 10px;
+border: 1px solid #5bb8f7;
+border-radius: 3px;
+margin-bottom: 7px;
+}
+.main_input{
+width: 290px;
+height: 40px;
+border: 1px solid rgb(241, 241, 241);
+border-radius: 3px;
+padding: 10px;
+margin-bottom: 7px;
+}
+.main_input_1{
+width: 290px;
+height: 40px;
+border: 1px solid rgb(241, 241, 241);
+border-radius: 3px;
+padding: 10px;
+margin-bottom: 7px;
+}
+.input_box{
+width: 227px;
+height: 18px;
+border: none;
+outline: none;
+}
+.input_box_1{
+width: 227px;
+height: 18px;
+border: none;
+outline: none;
+}
+.btn_submit{
+width: 290px;
+height: 48px;
+margin: 12px 20px 0px;
+font-size: 12px;
+background-color: #01ecd9;
+border: none;
+border-radius: 1px;
+color: #ffffff;
+}
+.btn_submit:hover{
+cursor: auto;
+border: 1px solid #0084ff;
+}
+.agreement{
+width: 300px;
+height: 50px;
+font-size: 12px;
+margin: 14px 0px 0px 15px;
+text-align: center;
+line-height: 22px;
+}
+.sign{
+color: #01ecd9;;
+}
+@media screen and (min-width: 400px){
+.container{
+    width: 599px;
+    height: 1000px;
+}
+.sub_container{
+    margin-left: 100px;
+}
+
+.section{
+    margin-left: 100px;
+}
+}
+@media screen and (min-width: 600px){
+.container{
+    width: 719px;
+    height: 950px;
+    padding-top: 10px;
+}
+.sub_container{
+    margin-left: 170px;
+}
+
+.section{
+    margin-left: 170px;
+}
+.wrapper_one{
+    width: 330px;
+    height: 170px;
+}
+.logo_icon{
+    margin-bottom: 20px;
+}
+
+.individuals{
+    font-size: 15px;
+}
+
+.inspire{
+    line-height: 18px;
+}
+.form{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 735px;
+}
+
+.agreement{
+    text-align: center;
+    margin-left: 15px;
+    width: 300px;
+    line-height: 22px;
+}
+
+}
+@media screen and (min-width: 768px){
+.container{
+    display: flex;
+    width: 1366px;
+    height: 607px;
+}
+
+.sub_container{
+    width: 460px;
+    height: 500px;
+    margin: 50px 40px 20px;
+}
+.wrapper_one{
+    width: 330px;
+    height: 170px;
+    margin: 120px 0px 0px 120px;
+    line-height: 18px;
+}
+
+.logo{
+    width: 77.33px;
+    height: 67px;
+    margin: 0;
+    padding: 0;
+}
+
+.individuals{
+    width: 268px;
+    height: 35px;
+    font-size: 16px;
+}
+.inspire{
+    display: none;
+}
+
+.inspire_lg{
+    display: contents;
+    color: #afaeae;
+    font-weight: 100;
+    width: 350px;
+    height: 75px;
+}
+
+.section{
+    width: 610px;
+    height: 530px;
+    margin: 25px 40px 300px;
+}
+.form{
+    width: 600px;
+    height: 520px;
+}
+
+.form_box1{
+    width: 330px;
+    height: 75px;
+    font-size: 14px;
+}
+.form_box2{
+    width: 590px;
+    height: 80px;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.container_1{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    margin-bottom: 0px;
+}
+
+.name_1{
+    margin: 2px 0;
+    letter-spacing: .5px;
+}
+
+.name_2{
+    margin: 0px 0px 5px;
+}
+
+.input_active{
+    width: 270px;
+    height: 43px;
+}
+
+.main_input{
+    width: 270px;
+    height: 43px;
+}
+
+.main_input_1{
+    width: 550px;
+    height: 43px;
+}
+
+.input_box{
+    width: 180px;
+    height: 20px;
+}
+
+.input_box_1{
+    width: 460px;
+    height: 20px;
+}
+.btn_submit{
+    width: 551px;
+    height: 42px;
+    margin: 0px 20px;
+    font-size: 14px;
+}
+.agreement{
+    width: 600px;
+    height: 45px;
+    font-size: 12px;
+    margin: 5px;
+    padding-left: 30px;
+}
+
+}
